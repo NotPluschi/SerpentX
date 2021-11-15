@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-    Title = "👑Serpent X";
+    Title = "Serpent X";
     Text = "Please wait...";
     Duration = 15;
 })
@@ -13,7 +13,7 @@ message = "Logged in"
 
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "👑Serpent X";
+    Title = "Serpent X";
     Text = "Checking Whitelist...";
     Duration = 20;
 })
@@ -34,7 +34,7 @@ if plr:IsInGroup(groupID) then
 })
 
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/NotPluschi/Insoanicx/main/gui"))()
-local L_4_ = L_3_.CreateLib("👑Serpent X", "LightTheme")
+local L_4_ = L_3_.CreateLib("Serpent X", "LightTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
 local L_6_ = L_5_:NewSection("Selections")
 L_6_:NewButton(
@@ -547,7 +547,7 @@ print(message,getuser)
 
 else
     game.StarterGui:SetCore("SendNotification", {
-    Title = "👑Serpent X";
+    Title = "Serpent X";
     Text = "Failed";
     Duration = 10;
     wait(3)
